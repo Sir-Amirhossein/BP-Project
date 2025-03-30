@@ -1,0 +1,12 @@
+#ifndef MAIN_C_DATABASE2_H
+#define MAIN_C_DATABASE2_H
+int connect_to_database_news();
+void create_table_news();
+void delete_table_news();
+int connect_to_database_pool();
+void create_table_pool();
+void delete_table_pool();
+int connect_to_database_reports();
+void create_table_reports();
+void delete_table_reports();
+#endif //MAIN_C_DATABASE2_H
